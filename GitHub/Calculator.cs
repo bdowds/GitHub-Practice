@@ -11,10 +11,9 @@ namespace GitHub
             return 0;
         }
 
-        public int Subtract(int a, int b)
+        public int Subtract(int minuend, int subtrahend)
         {
-            int result = a - b;
-            return result;
+            return minuend - subtrahend;
         }
 
         public int Multiply(int a, int b)
