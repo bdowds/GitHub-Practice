@@ -23,10 +23,11 @@ namespace GitHub
 
         public double Divide(int numerator, int denominator)
         {
-            if (b == 0)
+            if (denominator == 0)
             {
                 return 0;
             }
+
             return numerator / denominator;
         }
     }
