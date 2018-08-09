@@ -13,7 +13,8 @@ namespace GitHub
 
         public int Subtract(int a, int b)
         {
-            return 0;
+            int result = a - b;
+            return result;
         }
 
         public int Multiply(int a, int b)
