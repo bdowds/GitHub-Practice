@@ -21,9 +21,9 @@ namespace GitHub
             return a * b;
         }
 
-        public double Divide(int a, int b)
+        public double Divide(int numerator, int denominator)
         {
-            return 0;
+            return numerator / denominator;
         }
     }
 }
