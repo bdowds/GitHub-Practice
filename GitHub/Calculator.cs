@@ -21,13 +21,13 @@ namespace GitHub
             return a * b;
         }
 
-        public double Divide(int a, int b)
+        public double Divide(int numerator, int denominator)
         {
             if (b == 0)
             {
                 return 0;
             }
-            return  a / b;
+            return numerator / denominator;
         }
     }
 }
